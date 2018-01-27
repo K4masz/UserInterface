@@ -3,33 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Bicykl</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 <body>
 <div id="page">
     <header>
         <div id="logo">
-            logo
+            <img src="res/img/logo.png" alt="BICKYL - wypożyczalnia rowerów">
         </div>
-        <div id="contact">
-            kontakt
-        </div>
-        <nav>
-            nawigacja
+        <section id="contact" class="vcard">
+            <span class="fn org hidden">Bicykl</span>
+            <a class="tel" href="tel:+48987139221">987 139 221</a><br>
+            <a class="email" href="mailto:info@bicykl.com">info@bicykl.com</a>
+        </section>
+        <nav class="clear">
+            <ul>
+                <li>O nas</li>
+                <li>Oferta</li>
+                <li>Rezerwacja</li>
+                <li>Moje konto</li>
+            </ul>
         </nav>
     </header>
 
     <div>
-        <div id="content">
-            <div>
+        <div id="content" role="main">
+            <div class="primary">
                 główna zawartość
             </div>
-            <div>
-                dodatkowa zawartość
-            </div>
+            <aside class="secondary">
+                <section>
+                    <h2>Tylko w tym tygodniu!</h2>
+                    <p>W tym tygodniu ceny wypożyczenia...</p>
+                </section>
+
+                <section>
+                    <h2>Rodzinna jazda</h2>
+                    <p>W lipcu i sierpniu możesz...</p>
+                </section>
+            </aside>
         </div>
     </div>
 
-    <footer>
+    <footer class="clear">
         stopka
     </footer>
 </div>

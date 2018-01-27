@@ -1,0 +1,50 @@
+#page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+}
+
+#contact {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#logo, .primary {
+    float: left;
+}
+
+#contact, .secondary {
+    float: right;
+}
+
+.primary {
+    width: 720px;
+}
+
+.secondary {
+    width: 240px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 1em;
+}
+
+nav ul li:last-child {
+    float: right;
+}
+
+.hidden{
+    display: none;
+}
